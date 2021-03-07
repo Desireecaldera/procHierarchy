@@ -1,0 +1,11 @@
+Process 1 pid is: 12216
+Process 1.2 pid is: 12218
+Process 1.1 pid is: 12217
+Process 1.2.2 pid is: 12220
+Process 1.1.2 pid is: 12222
+Process 1.2.1 pid is: 12219
+Process 1.1.1 pid is: 12221
+Process 1.1 is terminating
+Process 1.2 is terminating
+Child terminated; parent exiting
+
