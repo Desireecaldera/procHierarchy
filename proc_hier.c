@@ -1,7 +1,6 @@
 /**
 *Name: Desiree Caldera
 *Lab/task: Lab03
-*Date: 02/16/21
 **/
 #include    <stdio.h>
 #include    <stdlib.h>
@@ -72,12 +71,7 @@ int main() {
                if (execlp("./iam", "iam", strs[i], NULL) < 0)
                      oops("Execlp Failed!"); 
         }
-        
-  /*tried including parent in this execlp function for proper annotations
-  however this caused an infinite loop*/ 
- //if (execlp("./iam", "iam", strs[i], NULL) < 0)
-      // oops("Execlp Failed!");      
-    }
+         
 
        /* parent will wait for the child to complete */
        if (waitpid(-1, NULL, 0) < 0) 
